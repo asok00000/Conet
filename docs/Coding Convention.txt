@@ -1,0 +1,5 @@
+1. All c++ source files' name lowercase. e.g guiapplication.h guiapplication.cpp
+2. All qml files' name capitalize the first letter of each word. e.g. Tooltip.qml. MessageBox.qml
+3. All Class inherited from QObject should split into two files, one for interface, one for data. e.g. frienditem.cpp frienditem_p.cpp
+4. All code sepecifications follow clang-formart's Google style
+5. DON'T USE CHINESE
